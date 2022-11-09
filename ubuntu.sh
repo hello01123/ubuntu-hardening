@@ -42,7 +42,7 @@ echo "Note: Designed for CyberPatriots! Any use within the CyberPatriots competi
 version=$(lsb_release -a) 
 
 
-fi
+
 
 read -p "Press any key to continue... " -n 1
 echo
