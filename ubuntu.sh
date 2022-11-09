@@ -43,7 +43,6 @@ version=$(lsb_release -a)
 
 
 
-
 read -p "Press any key to continue... " -n 1
 echo
 
