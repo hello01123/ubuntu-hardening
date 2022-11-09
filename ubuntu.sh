@@ -41,17 +41,7 @@ echo "Note: Designed for CyberPatriots! Any use within the CyberPatriots competi
 
 version=$(lsb_release -a) 
 
-if [[ $version =~ .*14.04* ]]
-then
-    echo "RUNNING 14.04 SCRIPT"
-else
-    if [[ $version =~ .*16.04* ]]
-    then
-        echo "RUNNING 16.04 SCRIPT"
-    else
-        echo "UNKNOWN VERSION! ENDING SCRIPT"
-        exit
-    fi
+
 fi
 
 read -p "Press any key to continue... " -n 1
